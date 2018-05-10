@@ -4,7 +4,7 @@
 #
 Name     : flmsg
 Version  : 4.0.6
-Release  : 5
+Release  : 6
 URL      : https://sourceforge.net/projects/fldigi/files/flmsg/flmsg-4.0.6.tar.gz
 Source0  : https://sourceforge.net/projects/fldigi/files/flmsg/flmsg-4.0.6.tar.gz
 Summary  : No detailed summary available
