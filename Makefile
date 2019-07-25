@@ -1,5 +1,5 @@
 PKG_NAME := flmsg
-URL = https://sourceforge.net/projects/fldigi/files/flmsg/flmsg-4.0.10.tar.gz
+URL = https://sourceforge.net/projects/fldigi/files/flmsg/flmsg-4.0.11.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
