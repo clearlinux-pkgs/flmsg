@@ -1,9 +1,10 @@
 # This file contains additional build requirements that did not get
 # picked up automatically. One name per line, no whitespace.
+compat-gcc-10-dev
 fltk-dev
-libpng-dev
-libjpeg-turbo-dev
-libXrender-dev
+fontconfig-dev
 libXcursor-dev
 libXft-dev
-fontconfig-dev
+libXrender-dev
+libjpeg-turbo-dev
+libpng-dev
