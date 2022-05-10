@@ -4,7 +4,7 @@
 #
 Name     : flmsg
 Version  : 4.0.19
-Release  : 20
+Release  : 21
 URL      : https://sourceforge.net/projects/fldigi/files/flmsg/flmsg-4.0.19.tar.gz
 Source0  : https://sourceforge.net/projects/fldigi/files/flmsg/flmsg-4.0.19.tar.gz
 Summary  : No detailed summary available
@@ -13,7 +13,6 @@ License  : GPL-3.0
 Requires: flmsg-bin = %{version}-%{release}
 Requires: flmsg-data = %{version}-%{release}
 Requires: flmsg-license = %{version}-%{release}
-BuildRequires : compat-gcc-10-dev
 BuildRequires : fltk-dev
 BuildRequires : fontconfig-dev
 BuildRequires : libXcursor-dev
@@ -57,15 +56,11 @@ license components for the flmsg package.
 cd %{_builddir}/flmsg-4.0.19
 
 %build
-## build_prepend content
-export CC=gcc-10
-export CXX=g++-10
-## build_prepend end
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1628175203
+export SOURCE_DATE_EPOCH=1652159693
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -85,7 +80,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1628175203
+export SOURCE_DATE_EPOCH=1652159693
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/flmsg
 cp %{_builddir}/flmsg-4.0.19/COPYING %{buildroot}/usr/share/package-licenses/flmsg/8624bcdae55baeef00cd11d5dfcfa60f68710a02
