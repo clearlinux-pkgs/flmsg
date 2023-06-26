@@ -1,6 +1,14 @@
-2022-06-23  dave-w1hkj  <w1hkj@bellsouth.net>
+2023-06-25  dave-w1hkj  <w1hkj@bellsouth.net>
 
-	f1663a42: Version 4.0.20
+	fc255c86: Version 4.0.22
+	7b2f12e7: Expert dialog window bar
+	1c7a02ee: RAFAC F126
+	3fc1ac5a: fltk-1.4 mods
+	49db4300: Version 4.0.21
+	d27042a6: Main Window Icon
+	89388c15: KNAME
+	1dfa1647: 64 build
+	92a0fb9d: Version 4.0.20
 	d51d4280: Win-64 update
 	ce3d8725: MARS generic
 	7f893f5c: flxmlrpc version
