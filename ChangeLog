@@ -1,6 +1,12 @@
-2023-06-25  dave-w1hkj  <w1hkj@bellsouth.net>
+2023-09-02  dave-w1hkj  <w1hkj@bellsouth.net>
 
-	fc255c86: Version 4.0.22
+	74bcad74: Version 4.0.23
+	78c53ad7: Compiler warnings
+	2fd53d38: mongoose security bug
+	973db629: Scheme
+	381cb7b4: THOR56
+	3f52c712: THOR 11/32/44
+	35be369c: Version 4.0.22
 	7b2f12e7: Expert dialog window bar
 	1c7a02ee: RAFAC F126
 	3fc1ac5a: fltk-1.4 mods

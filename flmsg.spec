@@ -4,10 +4,10 @@
 # Using build pattern: configure
 #
 Name     : flmsg
-Version  : 4.0.22
-Release  : 23
-URL      : https://sourceforge.net/projects/fldigi/files/flmsg/flmsg-4.0.22.tar.gz
-Source0  : https://sourceforge.net/projects/fldigi/files/flmsg/flmsg-4.0.22.tar.gz
+Version  : 4.0.23
+Release  : 24
+URL      : https://sourceforge.net/projects/fldigi/files/flmsg/flmsg-4.0.23.tar.gz
+Source0  : https://sourceforge.net/projects/fldigi/files/flmsg/flmsg-4.0.23.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GPL-3.0
@@ -57,10 +57,10 @@ license components for the flmsg package.
 
 
 %prep
-%setup -q -n flmsg-4.0.22
-cd %{_builddir}/flmsg-4.0.22
+%setup -q -n flmsg-4.0.23
+cd %{_builddir}/flmsg-4.0.23
 pushd ..
-cp -a flmsg-4.0.22 buildavx2
+cp -a flmsg-4.0.23 buildavx2
 popd
 
 %build
@@ -68,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1687790523
+export SOURCE_DATE_EPOCH=1693926071
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -100,7 +100,7 @@ cd ../buildavx2;
 make %{?_smp_mflags} check || :
 
 %install
-export SOURCE_DATE_EPOCH=1687790523
+export SOURCE_DATE_EPOCH=1693926071
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/flmsg
 cp %{_builddir}/flmsg-%{version}/COPYING %{buildroot}/usr/share/package-licenses/flmsg/8624bcdae55baeef00cd11d5dfcfa60f68710a02 || :
